@@ -11,7 +11,7 @@ namespace NumberGuessingGame
         private int minimum;
         private int maximum;
 
-        public NumberGuessing()
+        public NumberGuessing(int minimum, int maximum)
         {
             GenerateRandomNumber(minimum,maximum);
 
