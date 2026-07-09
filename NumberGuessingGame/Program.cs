@@ -17,7 +17,7 @@
                 {
                     Console.WriteLine("What Difficulty Would You Like? (E), (M) or (H)");
                     difficulty = Console.ReadLine();
-                    difficulty = difficulty.ToUpper();
+                     difficulty = difficulty.ToUpper();
 
                     if ((difficulty == "E") || (difficulty == "M") || (difficulty == "H"))
                     {
@@ -80,7 +80,7 @@
 
                         playAgain = playAgain.ToUpper();
 
-                        if ((playAgain == "Y") || (playAgain == "N"))
+                        if ((playAgain == Decision.Y.ToString()) || (playAgain == Decision.N.ToString()))
                         {
                             inputValid = true;
                         }
